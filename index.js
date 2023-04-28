@@ -10,6 +10,7 @@ app.post('/', (req, res) => {
 })
 
 app.get('/', (req, res) => {
+  console.log(req)
   console.log('Vai tomar no cu Túlio')
   res.sendStatus(200)
 })
